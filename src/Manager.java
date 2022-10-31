@@ -1,13 +1,13 @@
 public class Manager {
-    protected int[] sales;
+    protected long[] sales;
 
-    public Manager(int[] sales) {
+    public Manager(long[] sales) {
         this.sales = sales;
     }
 
-    public int max() {
-        int max = -1;
-        for (int sale : sales) {
+    public long max() {
+        long max = -1;
+        for (long sale : sales) {
             if (sale > max) {
                 max = sale;
             }
